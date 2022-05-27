@@ -1,0 +1,90 @@
+.experiencia .subtitulo {
+  color: #e0e0e0;
+}
+.experiencia-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: #525252;
+}
+.experiencia-texto strong {
+  color: #141414;
+}
+.experiencia-lista {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+  background: #f5f5f5;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.experiencia-lista::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+.experiencia-titulo {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+}
+.experiencia-img img {
+  width: 100%;
+  object-fit: cover;
+}
+.experiencia-ano {
+  position: absolute;
+  top: 22px;
+  left: -100px;
+  text-align: right;
+  width: 80px;
+  color: #525252;
+  font-size: 0.875rem;
+}
+.experiencia-subtitulo {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: #525252;
+}
+.experiencia-texto {
+  grid-column: 1;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  color: #525252;
+}
+.experiencia-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+}
+
+.experiencia-habilidades li {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  background: #ffffff;
+  padding: 5px 10px;
+}
+
+@media (max-width: 400px) {
+  .experiencia-lista {
+    grid-template-columns: 1fr;
+  }
+  .experiencia-texto {
+    margin-bottom: 20px;
+  }
+  .experiencia-ferramentas {
+    margin-top: 20px;
+  }
+}

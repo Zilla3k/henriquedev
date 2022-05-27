@@ -1,0 +1,11 @@
+@import "./componentes/colors.css";
+
+@import "./global.css";
+
+@import "./header.css";
+@import "./informacoes.css";
+@import "./sobre.css";
+@import "./skills.css";
+@import "./experiencia.css";
+@import "./formacao.css";
+@import "./footer.css";

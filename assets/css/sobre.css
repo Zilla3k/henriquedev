@@ -1,0 +1,11 @@
+.sobre {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+.sobre .subtitulo {
+  max-width: max-content;
+}
+.sobre p {
+  max-width: max-content;
+}
